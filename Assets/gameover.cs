@@ -4,17 +4,14 @@ using UnityEngine;
 
 public class gameover : MonoBehaviour
 {
-    public GameObject Personagem;
-    private bool isGameOver = false;
+    public GameObject teto;
+    public GameObject Movimento;
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == Personagem)
+        if (Movimento.GetComponent<movimento>().isGameOver)
         {
-            isGameOver = true;
-        }
-        if(isGameOver)
-        {
+            Movimento.GetComponent<movimento>().isGameOver = true;
             Debug.Log("Game Over!");
         }
     }

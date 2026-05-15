@@ -6,6 +6,7 @@ public class movimento : MonoBehaviour
 {
     private float horizonteInput;
     private Rigidbody2D rb;
+    public bool isGameOver = false;
     
     private void Awake()
     {
@@ -14,7 +15,7 @@ public class movimento : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+       isGameOver = false;
     }
 
     // Update is called once per frame
