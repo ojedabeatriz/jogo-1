@@ -449,7 +449,7 @@ GameObject:
   - component: {fileID: 175875545}
   - component: {fileID: 175875544}
   m_Layer: 0
-  m_Name: Top4
+  m_Name: Plataforma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -617,7 +617,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
+  m_BackGroundColor: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1267,7 +1267,7 @@ GameObject:
   - component: {fileID: 1872691821}
   - component: {fileID: 1872691824}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Gameover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1467,7 +1467,7 @@ GameObject:
   - component: {fileID: 1896442801}
   - component: {fileID: 1896442800}
   m_Layer: 0
-  m_Name: diversespace-front 1
+  m_Name: Fundo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1607,7 +1607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2047692931}
   m_Layer: 0
-  m_Name: pontuacao
+  m_Name: Pontuacao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
